@@ -318,26 +318,70 @@
     height: 50vh;
     background-color: #060606;
     .all-div{
+        width: 80%;
+        padding: 15px 10%;
         display: flex;
+        justify-content: space-between;
     }
     .div-1{
-        background-color: #222222;
+        // background-color: #222222;
     }
     .div-2{
         width: 25%;
         color: #fff;
         height: 20vh;
-        background-color: #00ff00;
+        // background-color: #00ff00;
     }
     .div-3{
-        width: 25%;
+        width: 30%;
         color: #fff;
         height: 20vh;
-        background-color: aqua;
+        // background-color: aqua;
         justify-content: space-between;
         .onee{
             display: flex;
             gap: 15px;
+            select{
+                width: 75%;
+                height: 3vh;
+                background-color: transparent;
+                color: #fff;
+                border: none;
+            }
+        }
+        .pi{
+            margin-top: 25px;
         }
     }
+    .div-4{
+        // background-color: blue;
+        width: 15%;
+        p{
+            color: #fff;
+        }
+        .div-4-1{
+            display: flex;
+            gap: 15px;
+            line-height: 25px;
+            margin-top: 15px;
+
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+    .text-6{
+        width: 80%;
+        padding: 55px 10%;
+        color: #b9b5b5;
+        display: flex;
+        justify-content: space-around;
+    }
+    .tt{
+        color: #a79999;
+        text-align: center;
+    }
 }
+
+@media 
